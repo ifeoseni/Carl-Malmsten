@@ -17,6 +17,7 @@
             --bg: {{ S::get('color_bg') }};
             --surface: {{ S::get('color_surface') }};
             --accent: {{ S::get('color_accent') }};
+            --nav-btn: {{ S::get('color_nav_button') }};
             --line: {{ S::get('color_line') }};
             --heading: {{ S::get('color_heading') }};
             --text: {{ S::get('color_text') }};

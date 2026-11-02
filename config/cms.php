@@ -55,12 +55,13 @@ return [
         'design' => [
             'label' => 'Colours',
             'fields' => [
-                'color_bg' => ['label' => 'Page background', 'type' => 'color', 'default' => '#2a2b2e'],
-                'color_surface' => ['label' => 'Header & services band', 'type' => 'color', 'default' => '#333437'],
-                'color_accent' => ['label' => 'Buttons', 'type' => 'color', 'default' => '#46301f'],
+                'color_bg' => ['label' => 'Page background', 'type' => 'color', 'default' => '#272729'],
+                'color_surface' => ['label' => 'Header & services band', 'type' => 'color', 'default' => '#303032'],
+                'color_accent' => ['label' => 'Buttons (Schedule / Begin the Work)', 'type' => 'color', 'default' => '#482e1f'],
+                'color_nav_button' => ['label' => 'Header button (Book a Session)', 'type' => 'color', 'default' => '#583a28'],
                 'color_line' => ['label' => 'Divider lines', 'type' => 'color', 'default' => '#8a7f75'],
-                'color_heading' => ['label' => 'Headings', 'type' => 'color', 'default' => '#eee7e1'],
-                'color_text' => ['label' => 'Body text', 'type' => 'color', 'default' => '#f5f2ee'],
+                'color_heading' => ['label' => 'Headings', 'type' => 'color', 'default' => '#dcd3cd'],
+                'color_text' => ['label' => 'Body text', 'type' => 'color', 'default' => '#f3f0ec'],
             ],
         ],
         'seo' => [
